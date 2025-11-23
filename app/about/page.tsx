@@ -581,7 +581,6 @@ function PersonaCard({
       variants={fadeInUp}
       transition={{ ...transitionFast, delay: index * 0.08 }}
       whileHover={{ y: -8, scale: 1.02 }}
-      transition={transitionFast}
       style={{ willChange: "transform, opacity", backfaceVisibility: "hidden" }}
       className="group relative rounded-3xl border border-white/10 bg-white/5 p-10 shadow-[0_40px_120px_rgba(0,0,0,0.5)] backdrop-blur-xl transition-all duration-300 hover:border-teal-400/40 hover:shadow-[0_60px_150px_rgba(34,211,238,0.3)] transform-gpu"
     >
